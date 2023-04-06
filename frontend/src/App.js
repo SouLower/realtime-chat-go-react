@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Header from './components/Header/Header';
+import Header from './components/Header';
+import ChatHistory from "./components/ChatHistory";
 import "./App.css";
 import { connect, sendMsg } from "./api";
 
